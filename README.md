@@ -26,6 +26,8 @@ Despite the widespread **adoption of remote and hybrid models**, there remains a
 
 ## 🚀 Getting Started
 
+### Preliminaries
+
 1. **Python 3.10+**: Please ensure that Python 3.10 or higher is installed on your system before running this project. You can download the required version from the official website [Install Python](https://www.python.org/downloads/).
 
 ### Setting Up the Environment
@@ -74,13 +76,11 @@ Despite the widespread **adoption of remote and hybrid models**, there remains a
 ### Running the System
 
 1. Navigate to the **`src`** folder by running the following command in your terminal:
-
     ```
     cd src
     ```
 
 2. Run the following command to execute the notebook:
-
     ```
     jupyter nbconvert --to notebook --execute working_adult_productivity_wellness.ipynb --inplace
     ```
