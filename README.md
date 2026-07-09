@@ -1,21 +1,21 @@
-# 👩🏻‍💻🏠 👨🏻‍💻🏢 Comparison of WFH vs WFO Among Working Adults
+# 👩🏻‍💻🏠 👨🏻‍💻🏢 **Comparison of WFH vs WFO Among Working Adults**
 
-## 📝 Project Overview
+## 📝 **Project Overview**
 
-## ❗️Problem Statement
+### ❗️ **Problem Statement**
+
 The COVID-19 pandemic has brought about a lasting transformation in work arrangements, with **remote work becoming a permanent fixture across many industries**. While remote setups are often linked to higher productivity due to greater flexibility and fewer workplace distractions, they may simultaneously reduce innovation, collaboration, and team dynamics. 
 Despite the widespread **adoption of remote and hybrid models**, there remains a lack of empirical evidence on how different work arrangements such as Work from Home (WFH), Work from Office (WFO), and Hybrid affect both employee productivity and wellness. Wellness factors such as mental health, emotional exhaustion, and work-life balance have gained relevance in the modern workplace yet remain underexamined across different work modes. Furthermore, many organizations still **lack data-driven mechanisms** to proactively identify employees at risk of dissatisfaction or burnout, underscoring the need for predictive frameworks based on real employee experiences.
 
-## 🎯 Research Objectives
+### 🎯 **Research Objectives**
 
 1. To determine whether work arrangements (WFH, WFO, Hybrid) significantly influence perceived productivity.
+   
+2. To develop predictive models of job satisfaction based on demographic, work-related, productivity, and wellness factors.
 
-2. To evaluate the impact of work arrangements on wellness outcomes, including mental health, emotional exhaustion, and work-life balance.
+3. To evaluate the impact of work arrangements on wellness outcomes, including mental health, emotional exhaustion, and work-life balance.
 
-3. To develop predictive models of job satisfaction based on demographic, work-related, productivity, and wellness factors.
-
-
-## ❓ Research Questions
+### ❓ **Research Questions**
 
 1. Does work arrangement significantly influence perceived productivity among working adults in Klang Valley (Kuala Lumpur, Selangor, Putrajaya)?
 
@@ -24,13 +24,13 @@ Despite the widespread **adoption of remote and hybrid models**, there remains a
 3. Can job satisfaction be accurately predicted based on demographic, work arrangement, productivity, and wellness factors?
 
 
-## 🚀 Getting Started
+## 🚀 **Getting Started**
 
 ### Preliminaries
 
-1. **Python 3.10+**: Please ensure that Python 3.10 or higher is installed on your system before running this project. You can download the required version from the official website [Install Python](https://www.python.org/downloads/).
+1. **Python 3.10++**: Please ensure that Python 3.10 or higher is installed on your system before running this project. You can download the required version from the official website [Install Python](https://www.python.org/downloads/).
 
-### Setting Up the Environment
+### **Setting Up the Environment**
 
 1. Clone the repository by running the following command in your terminal:
     ```
@@ -73,14 +73,15 @@ Despite the widespread **adoption of remote and hybrid models**, there remains a
     pip3 install -r requirements.txt
     ```
 
-### Running the System
+### **Running the Notebook**
 
 1. Navigate to the **`src`** folder by running the following command in your terminal:
     ```
     cd src
     ```
 
-2. Run the following command to execute the notebook:
+2. Run the following command to execute the notebook to run the analysis:
+   
     ```
     jupyter nbconvert --to notebook --execute working_adult_productivity_wellness.ipynb --inplace
     ```
